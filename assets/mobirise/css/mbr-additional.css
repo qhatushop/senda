@@ -18,7 +18,7 @@ body {
 }
 .display-4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 .display-5 {
   font-family: 'Poppins', sans-serif;
@@ -26,7 +26,7 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -45,9 +45,9 @@ body {
     line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.68rem;
-    font-size: calc( 0.9475rem + (0.85 - 0.9475) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.9475rem + (0.85 - 0.9475) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.44rem;
@@ -560,7 +560,7 @@ a:hover {
 }
 .form-control {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 blockquote {
   border-color: #4dcc16;
